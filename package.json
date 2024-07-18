@@ -1,0 +1,24 @@
+{
+  "name": "babylon-inspector-demo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@babylonjs/core": "^7.15.1",
+    "@babylonjs/gui": "^7.15.1",
+    "@babylonjs/gui-editor": "^7.15.1",
+    "@babylonjs/inspector": "^7.15.1",
+    "@babylonjs/loaders": "^7.15.1",
+    "@babylonjs/materials": "^7.15.1",
+    "@babylonjs/serializers": "^7.15.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "vite": "^5.3.4"
+  }
+}
